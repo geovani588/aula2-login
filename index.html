@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="login-page">
+        <div class="login">
+            <form class="register" method="post">
+                <h3><i class="register-form "></i>Registro</h3>
+                <h4>Nome: <input type="text" placeholder="Nome completo" required></h4>
+                <h4>E-mail: <input type="email" placeholder="E-mail" required></h4>
+                <h4>Senha: <input type="password" placeholder="Senha" required></h4>
+                <h4>Usuario: <input type="text" placeholder="usuario" required></h4>
+                <h4>Data: <input type="date" id="data" name="data"></h4>
+
+                <button type="submit">Enviar</button>
+                <p class="message">Ja se registrou? <a href="#">login</a></p>
+            </form>
+            <form class="login-formulario" method="post">
+                <h3><i class="register-form "></i>login</h3>
+                <h4>E-mail: <input type="email" placeholder="E-mail" required></h4>
+                <h4>Senha: <input type="password" placeholder="Senha" required></h4>
+                <button type="submit" name="submit2">login</button>
+                <p class="message">Ainda nao se registro? <a href="#">registra-se</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/main.js"></script>
+
+    
+</body>
+</html>
